@@ -11,7 +11,7 @@ class Nanny < Formula
   end
 
   def install
-    bin.install "Nanny.Console"
+    bin.install "*"
   end
 
   test do

@@ -11,7 +11,7 @@ class Nanny < Formula
   end
 
   def install
-    bin.install "bin/Nanny.Console"
+    libexec.install Dir["*"]
   end
 
   # test do

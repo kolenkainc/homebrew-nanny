@@ -1,8 +1,8 @@
 class Nanny < Formula
   desc "Nanny - is a command line interface for creation Github Pull Requests for projects with multiple release versions."
   homepage "https://github.com/kolenkainc/Nanny"
-  url "https://github.com/kolenkainc/Nanny/releases/download/1.0.0.99/nanny_1.0.0.99.tar.gz"
-  sha256 "bf1390b9327bb77ea0419f0df7bb106d5c61a3de2b30fd95cb9b8b757289b443"
+  url "https://github.com/kolenkainc/Nanny/releases/download/1.0.0.105/nanny_1.0.0.105.tar.gz"
+  sha256 "c2223670ba039003c8e792808341d2b089bd9210da6e4f653ead1405e22a1e17"
   license "Apache-2.0"
 
   livecheck do
@@ -11,7 +11,7 @@ class Nanny < Formula
   end
 
   def install
-    bin.install Dir["*"]
+    bin.install %w[bin]
   end
 
   test do

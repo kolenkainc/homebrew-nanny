@@ -13,7 +13,7 @@ class Nanny < Formula
   def install
     rm_f Dir["libexec"]
     libexec.install Dir["*"]
-    (bin/"nanny").write_env_script libexec/"Nanny.Console"
+    bin.install_symlink Dir["#{libexec}/Nanny.Console"] => "nanny"
   end
 
   # test do

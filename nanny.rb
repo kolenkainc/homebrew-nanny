@@ -11,7 +11,7 @@ class Nanny < Formula
   end
 
   def install
-    bin.install %w[bin]
+    libexec.install %w[bin]
   end
 
   # test do

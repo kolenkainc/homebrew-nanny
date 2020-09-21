@@ -11,6 +11,7 @@ class Nanny < Formula
   end
 
   def install
+    rm_f Dir["libexec"]
     libexec.install Dir["*"]
   end
 

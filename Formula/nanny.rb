@@ -1,8 +1,8 @@
 class Nanny < Formula
     desc "Nanny - is a command line interface for creation Github Pull Requests for projects with multiple release versions."
     homepage "https://github.com/kolenkainc/Nanny"
-    url "https://github.com/kolenkainc/Nanny/releases/download/1.0.0.217/nanny_1.0.0.217.tar.gz"
-    sha256 "983449e15d406bb1f33e3e4d76a3570ebf2fa47d6b74a4d3bdca23d2ef97cf83"
+    url "https://github.com/kolenkainc/Nanny/releases/download/1.0.0.227/nanny_1.0.0.227.tar.gz"
+    sha256 "9e60dcb68265d0719dcee692f3e3b8164f7285fa82573f7baffb13e46020dee9"
     license "MIT"
   
     livecheck do
